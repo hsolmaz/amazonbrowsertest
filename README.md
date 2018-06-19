@@ -1,5 +1,6 @@
 # amazonbrowsertest
 Amazon browser test with python2
+
 Installing
 If you have pip on your system, you can simply install or upgrade the Python bindings:
 
