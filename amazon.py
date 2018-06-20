@@ -47,3 +47,5 @@ if driver.find_element_by_xpath('//*[@id="g-items"]').text.split('\n')[-2] == 'D
     print 'Product deleted on favorite'
 else:
     print 'Error : You didn\'t deleted'
+driver.implicitly_wait(2)
+driver.close()
